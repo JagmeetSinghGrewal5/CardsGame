@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Gill Sans;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 13%;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#logo{
+    height: 70%;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.texts{
+    color: rgb(4, 4, 168);
+    display: flex;
+}
+
+.texts:hover{
+    color: rgb(25, 135, 194);
+}
+
+#contactdetails{
+    font-weight: lighter;
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+#Try{
+    background-color: rgb(19, 136, 19);
+    padding: 10px 20px;
+    color: white;
+}
+
+#Try:hover{
+    background-color: rgb(2, 53, 2);
+}
+
+#fakeheader{
+    height: 13%;
+    width: 100%;
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(6, 6, 89);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#strip u{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+#content{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+}
+
+#btns{
+    display: flex;
+}
+
+#btns1{
+    width: 23%;
+    text-align: center;
+    margin: 10px 20px;
+    color: white;
+    background-color: rgb(43, 134, 165);
+    border-radius: 5px;
+}
+
+#btns1:hover{
+    background-color: rgb(10, 80, 101);
+}
+
+#btns2{
+    border-radius: 5px;
+    width: 23%;
+    text-align: center;
+    margin: 10px 20px;
+    color: rgb(43, 134, 165);
+    border: solid 1px rgb(43, 134, 165);
+}
+
+#btns2:hover{
+    background-color: lightblue;
+    color: rgb(10, 80, 101);
+    border: solid 1px rgb(10, 80, 101);
+}
+
+#box2{
+    height: 90%;
+    width: 47%;
+    background-color: antiquewhite;
+}
+
+#heading{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(9, 9, 148);
+    background-color: white;
+}
+
+#heading h1{
+    font-weight: 600;
+}
+
+#box1 h1{
+    font-weight: 600px;
+    font-size: 40px;
+    margin: 30px 10px;
+    color: rgb(4, 4, 91);
+}
+
+#box1 p{
+    font-size:large;
+    margin: 30px 10px;
+    font-weight: lighter;
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color: brown;
+}
+
